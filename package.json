@@ -2,6 +2,9 @@
   "name": "deploy2",
   "version": "0.0.0",
   "license": "MIT",
+  "engines": {
+    "node": "^6.11.2" // intentionally so big version number
+  },
   "scripts": {
     "_heroku": "https://www.angularonrails.com/deploy-rails-application-angular-cli-webpack-front-end/",
     "start": "http-server dist/",
